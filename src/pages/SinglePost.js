@@ -1,13 +1,13 @@
 import React from 'react';
 
 import NavBar from '../components/NavBar';
-import Blog from '../components/Blog';
+import SingleBlog from '../components/SingleBlog';
 
 const SinglePost = () => {
     return (
         <div>
             <NavBar />
-            <Blog />
+            <SingleBlog />
         </div>
     )
 }

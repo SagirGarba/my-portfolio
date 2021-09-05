@@ -41,7 +41,7 @@ const NavBar = () => {
                 <div className="inline-flex py-0.1 px-3 my-3">
                     <SocialIcon url="https://twitter.com/sager_garba" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
                     <SocialIcon url="https://www.linkedin.com/in/sagirgarba/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
-                    <SocialIcon url="https://github.com/SagirGarba" className="mr-4 text-xs" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
+                    <SocialIcon url="https://github.com/SagirGarba" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
                 </div>
             </div>
         </header>
