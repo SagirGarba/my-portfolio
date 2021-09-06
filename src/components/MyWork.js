@@ -25,10 +25,10 @@ const MyWork = () => {
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">
                     Welcome to my projects page
                 </h2>
-                <section className="grid grid-cols-2 gap-8">
+                <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projectData && projectData.map((project, index) => (
-                    <article className="relative rounded-lg shadow-xl bg-white p-16">
-                        <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                    <article className="relative rounded-lg shadow-xl bg-white p-7">
+                        <h3 className="text-gray-800 text-xl font-bold mb-2 hover:text-red-700">
                             <a
                             href={project.link}
                             alt={project.title}
@@ -38,7 +38,7 @@ const MyWork = () => {
                                 {project.title}
                             </a>
                         </h3>
-                        <div className="text-gray-500 text-xs space-x-4">
+                        <div className="text-gray-500 text-xs space-x-2">
                             <span>
                                 <strong className="font-bold">Finished on</strong>:{" "}
                                 {new Date(project.date).toLocaleDateString()}

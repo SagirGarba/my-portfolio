@@ -6,7 +6,7 @@ import Introduction from '../components/Introduction';
 const Home = () => {
     return (
         <div>
-            <NavBar />
+            <NavBar/>
             <Introduction />
         </div>
     )

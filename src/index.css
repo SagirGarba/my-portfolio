@@ -7,6 +7,19 @@
   font-weight: 700;
 }
 
+@media (min-width: 100px) { 
+.cursive {
+  font-weight: 300;
+}
+.home-name{
+  font-size: 80px;
+}
+}
+
+.round{
+  border-radius: 100%;
+}
+
 .prose img{
   margin-left: auto;
   margin-right: auto;
@@ -14,5 +27,5 @@
 }
 
 .home-name{
-  font-size: 80px;
+  font-size: 40px;
 }
